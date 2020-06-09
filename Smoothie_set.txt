@@ -1,0 +1,70 @@
+受信:; No config override
+受信:;Steps per unit:
+受信:M92 X2200.00000 Y2200.00000 Z2200.00000
+受信:;Acceleration mm/sec^2:
+受信:M204 S50.00000 Z0.00000
+受信:;X- Junction Deviation, S - Minimum Planner speed:
+受信:M205 X0.00500 S0.00000
+受信:;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+受信:M203 X12.50000 Y12.50000 Z4.16667 A12.50000 B12.50000 C4.16667
+受信:;Motor currents:
+受信:M907 X2.00000 Y2.00000 Z2.00000 E2.00000 
+受信:;E Steps per mm:
+受信:M92 E130.0000 P57988
+受信:;E Filament diameter:
+受信:M200 D0.0000 P57988
+受信:;E retract length, feedrate:
+受信:M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000 P57988
+受信:;E retract recover length, feedrate:
+受信:M208 S0.0000 F480.0000 P57988
+受信:;E acceleration mm/sec^2:
+受信:M204 E500.0000 P57988
+
+
+
+
+
+
+
+//////////////////////////////////
+元の
+
+
+受信:; No config override
+受信:;Steps per unit:
+受信:M92 X160.00000 Y160.00000 Z160.00000
+
+受信:;Acceleration mm/sec^2:
+受信:M204 S1500.00000 Z0.00000
+
+受信:;X- Junction Deviation, S - Minimum Planner speed:
+受信:M205 X0.05000 S0.00000
+
+受信:;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+受信:M203 X25.00000 Y25.00000 Z8.33333 A25.00000 B25.00000 C8.33333
+
+受信:;Motor currents:
+受信:M907 X0.00000 Y0.00000 Z2.00000 E2.00000 
+
+受信:;Home offset (mm):
+受信:M206 X0.00 Y0.00 Z0.00
+
+受信:;E Steps per mm:
+受信:M92 E130.0000 P57988
+
+受信:;E Filament diameter:
+受信:M200 D0.0000 P57988
+
+受信:;E retract length, feedrate:
+受信:M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000 P57988
+
+受信:;E retract recover length, feedrate:
+受信:M208 S0.0000 F480.0000 P57988
+
+受信:;E acceleration mm/sec^2:
+受信:M204 E500.0000 P57988
+
+
+
+
+
